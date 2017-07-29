@@ -86,6 +86,47 @@ dhankar@dhankar-VPCEB44EN:/var/lib/mongodb$
 ```
 
 #
+```
+> db.col_1_29JULY.findOne()
+{
+	"_id" : ObjectId("597cb3812e01653b6d551f45"),
+	"iso_language_code" : "en",
+	"in_reply_to" : {
+		"user_name" : null,
+		"user_id_str" : null
+	},
+	"from_place" : {
+		"country" : null
+	},
+	"entities" : {
+		"user_mentions_Name" : [ ],
+		"hashtags" : [ ],
+		"user_mentions_UserID" : [ ],
+		"urls" : 1,
+		"user_mentions_ScreenName" : [ ]
+	},
+	"text" : "Ugly as hell to begin with - https://t.co/n3YiEnFeFb https://t.co/visXxMDbU8",
+	"created_at" : ISODate("2017-07-26T08:05:04Z"),
+	"coordinates" : null,
+	"source" : "Twitter Web Client",
+	"from_user" : {
+		"screen_name" : "DhankarRohit",
+		"friends_count" : 1580,
+		"followers_count" : 918,
+		"id_str" : "890120774740299779",
+		"location" : "India",
+		"id" : NumberLong("890120774740299779"),
+		"name" : "Rohit Dhankar"
+	},
+	"retweet_count" : 0,
+	"geo" : null,
+	"id" : NumberLong("890120774740299779"),
+	"favorite_count" : 1
+}
+> 
+
+
+```
 
 #
 
