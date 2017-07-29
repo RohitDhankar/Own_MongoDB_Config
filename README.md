@@ -85,6 +85,24 @@ dhankar@dhankar-VPCEB44EN:/var/lib/mongodb$
 dhankar@dhankar-VPCEB44EN:/var/lib/mongodb$ 
 ```
 
+# Within the Mongo Shell 
+
+```
+> show dbs
+admin         0.000GB
+db1_29JULY17  0.000GB
+local         0.000GB
+> 
+> use db1_29JULY17
+switched to db db1_29JULY17
+> 
+> show collections
+col_1_29JULY
+> 
+
+
+```
+
 #
 ```
 > db.col_1_29JULY.findOne()
